@@ -58,7 +58,7 @@ async function handleSubmitSearch(event) {
   }
 }
 
-async function handleLoadMore(event) {
+async function handleLoadMore() {
   ++currentPage;
   try {
     showLoader();
